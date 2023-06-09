@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #5B5252;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.page {
+    width: min(100% - 2rem, 1200px);
+    background: #EFEFEC;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 900px;
+    height: 35px;
+    display: flex;
+    padding-left: 74px;
+    padding-top: 57px;
+    justify-content: space-between;
+}
+
+.nav_text {
+    line-height: 107.4%;
+    /* or 34px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.block_button {
+    margin-left: 990px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+button {
+    transition: 0.4s;
+}
+button:hover {
+    transform: scale(1.1);
+}
+
+input[type=radio] {
+    transition: 0.4s;
+}
+
+input[type=radio]:hover {
+    transform: scale(1.1);
+}
+
+.nav_text {
+    transition: 0.4s;
+}
+
+.nav_text:hover {
+    transform: scale(1.1);
+}
+
+.skill {
+    transition: 0.4s;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+.nav_text_name_surname {
+    font-weight: 500;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: linear-gradient(90deg, #B75C1B 27.38%, #9A8438 72.75%);
+}
+
+.contact_me {
+    width: 391px;
+    height: 74px;
+    margin-top: -10px;
+    border-style: none;
+    background: #CDCBC1;
+    border-radius: 79px;
+}
+
+h1 {
+    margin-top: 6.95%;
+    bottom: 88.12%;
+
+
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 107.4%;
+    /* or 103px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #756C38;
+}
+
+.description {
+    width: 878px;
+    height: 30px;
+    margin-left: calc(50% - 878px/2);
+    margin-top: 22px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    background: linear-gradient(90deg, #B75C1B 27.38%, #9A8438 72.75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.block_features {
+    width: 1306px;
+    height: 483px;
+    padding-left: 155px;
+    padding-top: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features {
+    width: 389px;
+    height: 474px;  
+}
+
+p {
+    width: 317px;
+    height: 130px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    background: linear-gradient(180deg, #BD534E 0%, #8E6E2A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+h2 {
+    width: 1000px;
+    height: 63.29px;
+    padding-left: calc(50% - 379px/2 - 0.5px);
+    padding-top: 150px;
+    display: flex;
+    
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: 0.13em;
+
+    color: #61530C;
+
+}
+
+.block_skills {
+    width: 100%;
+    height: 104px;
+    padding-left: 99px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    width: 200px;
+    height: 104px;
+    padding-top: 80px;
+
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 24px;
+    letter-spacing: 0.13em;
+
+    color: #756323;
+
+}
+
+.block_works {
+    width: 683px;
+    height: 335px;
+    padding-left: 333px;
+}
+
+
+input[type=radio] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  
+    border: 2px solid #6b5e56;
+    background: #6b5e56;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+  
+    position: relative;
+    top: 4px;
+  }
+  
+  input[type=radio]:checked {
+    background: rgb(81, 7, 7);
+    border: 25px solid rgb(81, 7, 7);
+    outline: unset !important /* I added this one for Edge (chromium) support */
+  }
+
+.work {
+    width: 59px;
+    height: 59px;
+    margin-left: 13px;
+    margin-top: 90px;
+    display: flex;
+}
+
+.work_head {
+    width: 490px;
+    height: 350px;
+    margin-left: 150px;
+    margin-top: -345px;
+    display: flex;
+
+    background: url(d.png);
+}
+
+.block_contact {
+    width: 352px;
+    height: 292px;
+    padding-left: 542px;
+    padding-top: 100px;
+}
+
+.input_contacts {
+    width: 347px;
+    height: 51px;
+    padding-top: 28px;
+
+        
+    background: #5B5252;
+    box-shadow: inset 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.065em;
+    color: #D6D9D6;
+
+}
+
+.input_contacts::placeholder {
+    color: #D6D9D6;
+    margin-top: -15px;
+}
+
+.send_btn {
+    width: 347px;
+    height: 76px;
+    left: calc(50% - 347px/2 - 4.5px);
+    margin-top: 64px;
+
+    font-weight: 500;
+    line-height: 39px;
+    /* identical to box height */
+    border-style: none;
+    background: #CDCBC1;
+    border-radius: 2px;
+
+    letter-spacing: 0.065em;
+
+    color: #B75C1B 27.38%;
+
+    cursor: pointer;
+}
+
+.my_contacts {
+    position: absolute;
+    width: 220px;
+    height: 84px;
+    left: calc(50% - 220px/2 + 638px);
+    top: 2336px;
+}
+
+.f_photo {
+    position: absolute;
+    width: 212px;
+    height: 212px;
+    left: 36px;
+    top: 1147px;
+}
+
+.s_photo {
+    position: absolute;
+    width: 249px;
+    height: 218px;
+    left: calc(50% - 249px/2 + 551.5px);
+    top: 1453px;
+}
+
+.t_photo {
+    position: absolute;
+    width: 340px;
+    height: 336px;
+    left: 52px;
+    top: 2015px;
+}
